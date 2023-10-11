@@ -1,0 +1,179 @@
+body{
+    background-color: #001390;
+    padding: 0 15rem;
+}
+
+.navbar{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 25rem;
+}
+
+.menu{
+    display: flex;
+    float:left;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu p:first-child a {
+    color: #c4c1c1;
+    opacity: 0.6;
+}
+
+.btn{
+    background-color: #E93A7D;
+    color: #fff;
+    width: 8.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    border-radius: 20px;
+    border: none !important;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.hero-content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 5rem;
+}
+
+.hero-content h1{
+    font-family: sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 1rem;
+}
+
+.hero-content p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-right: 10rem;
+}
+
+.form {
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em 3em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.signup {
+    color: #1f037b;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 0 1em;
+  }
+  
+  .form-input {
+    width: 70%;
+    margin-bottom: 1.5em;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding: 0.5em 0.8em;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+  }
+  
+  .form-marketing {
+    display: flex;
+    margin-bottom: 1.25em;
+    align-items: center;
+  }
+  
+  .form-marketing > input {
+    margin-right: 0.625em;
+  }
+  
+  .form-marketing > label {
+    color: grey;
+  }
+  
+  .checkbox, input[type="checkbox"] {
+    accent-color: #25DAC5;
+  }
+  
+  .form-submit {
+    width: 70%;
+    padding: 0.625em;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #482BE7;
+    border: 1px dashed #482BE7;
+    cursor: pointer;
+    margin: 1rem;
+  }
+  
+  .form-submit:hover {
+    color: #fff;
+    background-color: rgb(47, 0, 255); 
+  }
+
+.Twitter {
+  width: 70%;
+  padding: 0.625em;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #1DA1F2;
+  border: 1px dashed #1DA1F2;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: #8B8E98;
+}
+
+.separator .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #e8e8e8;
+}
+
+.link a {
+  color: #25DAC5;
+  text-decoration: none;
+}
